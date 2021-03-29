@@ -2,7 +2,7 @@
         <div class="logo">
             <h1>
                 <a href="top.php">
-                    <img src="image/キャンプ-_ロゴ白.png" alt="ロゴ">
+                    <img src="image/camp_logo2.png" alt="ロゴ">
                 </a>
                 
             </h1>
