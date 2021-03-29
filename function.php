@@ -186,9 +186,9 @@ function validSelectEval($str, $key){
 
 //DB接続関数
 function dbConnect(){
-    $dsn = "mysql:dbname=campDB;host=localhost;charset=utf8";
-    $user = "root";
-    $pass = "root";
+    $dsn = "mysql:dbname=heroku_8a8aae76eb3f955;host=us-cdbr-east-03.cleardb.com;charset=utf8";
+    $user = "b996982d719b06";
+    $pass = "54b467c9";
     $option = array(
         //SQL実行失敗時にはエラーコードのみ設定
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
