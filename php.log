@@ -86112,3 +86112,178 @@ Stack trace:
 [27-Mar-2021 17:40:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616834432
 [27-Mar-2021 17:40:32 Asia/Tokyo] PHP Notice:  Undefined index: login_time in /Applications/MAMP/htdocs/camp_web/function.php on line 24
 [27-Mar-2021 17:40:32 Asia/Tokyo] デバッグ：未ログインユーザです。
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：ログインページ
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+)
+
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616983883
+[29-Mar-2021 11:11:23 Asia/Tokyo] PHP Notice:  Undefined index: login_time in /Applications/MAMP/htdocs/camp_web/function.php on line 24
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：未ログインユーザです。
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：POST送信があります。
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：POST:Array
+(
+    [email] => u00001@example.com
+    [pass] => u00001
+)
+
+[29-Mar-2021 11:11:23 Asia/Tokyo] PHP Notice:  Undefined index: save in /Applications/MAMP/htdocs/camp_web/index.php on line 20
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：未入力チェックOK
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：各入力値のバリデーションOK
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:23 Asia/Tokyo] デバッグ：Array
+(
+    [id] => 6
+    [email] => u00001@example.com
+    [password] => $2y$10$IT13S9djiLC4SfUHd.lxE.dpkWi6.cvVX8Y8rn1u01Ax7rxWiNVge
+)
+
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：パスワードが一致しました。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+    [user_id] => 6
+    [login_time] => 1616983884
+    [login_limit] => 3600
+)
+
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：マイページです。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+    [user_id] => 6
+    [login_time] => 1616983884
+    [login_limit] => 3600
+)
+
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616983884
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：ログイン済ユーザです。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：ログイン有効期限内です。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：ログイン有効期限：1616987484
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：ページ番号：1
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：都道府県名を取得します。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：マイページ用のレビュー情報を取得します。
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:24 Asia/Tokyo] デバッグ：取得した情報：Array
+(
+    [review_all] => 0
+    [review_page] => 0
+    [review_list] => Array
+        (
+        )
+
+)
+
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：トップページです。
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+    [user_id] => 6
+    [login_time] => 1616983884
+    [login_limit] => 3600
+)
+
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616983890
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：ログイン済ユーザです。
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：ログイン有効期限内です。
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：ログイン有効期限：1616987490
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：都道府県ID：0
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：ページ番号：1
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：都道府県名を取得します。
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：一覧表示用のレビュー情報を取得します。
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:30 Asia/Tokyo] デバッグ：取得した情報：Array
+(
+    [review_all] => 0
+    [review_page] => 0
+    [review_list] => Array
+        (
+        )
+
+)
+
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：マイページです。
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+    [user_id] => 6
+    [login_time] => 1616983890
+    [login_limit] => 3600
+)
+
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616983901
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：ログイン済ユーザです。
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：ログイン有効期限内です。
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：ログイン有効期限：1616987501
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：ページ番号：1
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：都道府県名を取得します。
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：マイページ用のレビュー情報を取得します。
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:11:41 Asia/Tokyo] デバッグ：取得した情報：Array
+(
+    [review_all] => 0
+    [review_page] => 0
+    [review_list] => Array
+        (
+        )
+
+)
+
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：マイページです。
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+    [user_id] => 6
+    [login_time] => 1616983901
+    [login_limit] => 3600
+)
+
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616984126
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：ログイン済ユーザです。
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：ログイン有効期限内です。
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：ログイン有効期限：1616987726
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：ページ番号：1
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：都道府県名を取得します。
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：マイページ用のレビュー情報を取得します。
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：クエリ成功
+[29-Mar-2021 11:15:26 Asia/Tokyo] デバッグ：取得した情報：Array
+(
+    [review_all] => 0
+    [review_page] => 0
+    [review_list] => Array
+        (
+        )
+
+)
+
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：レビュー登録ページです。
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：********************************************
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：セッション情報：Array
+(
+    [user_id] => 6
+    [login_time] => 1616984126
+    [login_limit] => 3600
+)
+
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1616984142
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：ログイン済ユーザです。
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：ログイン有効期限内です。
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：ログイン有効期限：1616987742
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：都道府県名を取得します。
+[29-Mar-2021 11:15:42 Asia/Tokyo] デバッグ：クエリ成功
