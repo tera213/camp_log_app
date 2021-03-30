@@ -5,7 +5,7 @@
 //==================================================
 
 //ログ設定
-ini_set('error_log', 'php.log');
+ini_set('error_log', dirname(__FILE__) . '/error.log');
 ini_set('lof_errors', 'On');
 
 
