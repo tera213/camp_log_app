@@ -3,6 +3,7 @@
       "php": "~7.3.11",
       "ext-mbstring": "*",
         "ext-gd": "*",
-        "barryvdh/laravel-debugbar": "^3.5"
+        "barryvdh/laravel-debugbar": "^3.5",
+        "ext-exif":"*"
     }
  }
