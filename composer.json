@@ -2,6 +2,6 @@
     "require": {
       "php": "~7.0",
       "ext-mbstring": "*",
-        "ext-gd": "^7.3"
+        "ext-gd": "*"
     }
  }
