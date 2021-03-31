@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b487b326c0f896afb5b351e5e9acb3e1f8ae5a17',
+    'reference' => 'b02f3d3e7778e68110bbc9e8820fbcbf50d1d577',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b487b326c0f896afb5b351e5e9acb3e1f8ae5a17',
+      'reference' => 'b02f3d3e7778e68110bbc9e8820fbcbf50d1d577',
     ),
     'barryvdh/laravel-debugbar' => 
     array (
