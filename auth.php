@@ -4,6 +4,7 @@
 if(!empty($_SESSION['user_id'])){
     debug('ログイン済ユーザです。');
 
+    
     //ログイン有効期限のチェック
     if( ($_SESSION['login_time'] + $_SESSION['login_limit']) < time()){
         debug('ログイン有効期限が切れています。');
