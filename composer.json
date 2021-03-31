@@ -2,6 +2,7 @@
     "require": {
       "php": "~7.0",
       "ext-mbstring": "*",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "barryvdh/laravel-debugbar": "^3.5"
     }
  }
