@@ -19,8 +19,8 @@ Webサービスの作成の流れを学ぶことを目的にフルスクラッ�
 
 * ローカル開発環境：MAMP6.3
 * 言語：
-  PHP7.3
- * HTML5
- * CSS3
- * JavaScript(jQuery)
+  - PHP7.3
+  - HTML5
+  - CSS3
+  - JavaScript(jQuery)
 * デプロイしたサーバ：heroku
