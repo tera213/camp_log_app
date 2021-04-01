@@ -5,7 +5,7 @@ Webサービスの作成の流れを学ぶことを目的にフルスクラッ�
 機能的に足りない部分も多々あるので今後も学習を続けて完成度を上げていこうと思っています。
 
 ## デモ
-![デモ](https://raw.githubusercontent.com/tera213/camp_log_app/images/logo.png)
+![デモ](https://raw.githubusercontent.com/tera213/camp_log_app/images/demo.gif)
 
 ##機能、使い方
 
